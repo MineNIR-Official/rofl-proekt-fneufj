@@ -1,91 +1,54 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <title>NuckemGarage</title>
-    </head>
-    <body>
-        <div class='logo'>
-            <b>
-                <span class='brackets left'></span>
-                <span>Игорь</span>
-                <span class='brackets right'></span>
-            </b>
-            Не бей
-        </div>
-
-        <p class='sample'>Привет=} <br>Рофл сайт</p>
-
-        <button id='button' onClick='changeTheme()'>Dark Theme</button>
-    </body>
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap%27);
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap%27);
-
-html, button{
-    font-family: Quicksand, sans-serif;
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Тест сайт. Альфа тест.">
+<meta name="theme-color" content="#2F3136">
+<meta property="og:title" content="NuckemGarage">
+<meta property="og:description" content="Привет!">
+<meta property="og:site_name" content="NuckemGarage">
+<meta property="og:type" content="website" />
+<meta name="msvalidate.01" content="A9A707E08BBF89790B637CF5F38FBA78" />
+<script>function w(d,e,c){b=d.slice(0,c),b==d?e.innerHTML=b:(e.innerHTML=b+"|",setTimeout(w,100,d,e,c+1))}window.addEventListener('load',function(){for(i of document.getElementsByClassName("typewriter"))w(i.innerHTML,i,0)},false)</script>
+<link rel="stylesheet" href="https://cdn.matdoes.dev/all.css" defer>
+<link rel="shortcut icon" type="image/png" href="" />
+<link rel="canonical" href="https://www.matdoes.dev/">
+<link rel="manifest" href="/manifest.webmanifest">
+<title>NuckemGarage</title>
+<style>body{background-color:#000}.loading{width:0;height:0;animation:spin 1s infinite cubic-bezier(.32,.8,.69,.2);position:relative;display:block;margin:auto}.loading-container{margin-top:50vh}@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}.loading-cover{position:fixed;width:100vw;min-height:100vh;height:100%;background-color:#000;z-index:1000}</style>
+<script>
+window.addEventListener('load', function() {
+	document.getElementsByClassName("loading-cover")[0].remove()
+}, false)
+</script>
+<style>
+.center-vertical-container {
+	height: calc(100% - 3rem)
 }
-
-body{
-    background: white;
-    color:#555;
-    text-align: center;
-}
-
-.logo{
-    margin-top:30%;
-    font-size:30px;
-    font-weight:normal;
-}
-
-.brackets{
-    font-family: Advent Pro, sans-serif;
-}
-
-.left{
-    color:tomato;
-}
-
-.right{
-    color:dodgerblue;
-}
-
-.sample{
-    padding:20px;
-    font-size:18px;
-    background: inherit;
-    color:inherit;
-}
-
-#button{
-    margin-top:10px;
-    background:dodgerblue;
-    color:white;
-    width:80%;
-    height:60px;
-    font-size: 20px;
-    outline: none;
-    border:5px solid deepskyblue;
-    border-radius: 5px;
-}
-
-#button:active{
-    transform: scale(0.95);
-}
-    </style>
-    
-    <script>
-      function changeTheme(){
-    if(document.getElementById('button').innerHTML==='Dark Theme'){
-        document.body.style.background='#555';
-        document.body.style.color='white';
-        document.getElementById('button').innerHTML='Light Theme';
-    }
-    else{
-        document.body.style.background='white';
-        document.body.style.color='#555';
-        document.getElementById('button').innerHTML='Dark Theme';
-    }
-}
-    </script>
+</style>
+</head>
+<body>
+<div class="loading-cover">
+<div class="loading">
+<div class="loading-container">
+<svg height="50" width="50">
+<circle cx="0" cy="0" r="50" fill="none" stroke="#fff" />
+</svg>
+</div>
+</div>
+</div>
+<div class="viewport-height">
+<div class="center-vertical-container">
+<div class="table-center">
+<h1 class="typewriter display-1 text-center">NuckemGarage</h1>
+<div class="content">
+<p>Привет</p>
+<div class="menu-buttons">
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
 </html>
